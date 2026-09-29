@@ -1,116 +1,58 @@
-# FactShield AI
+# 🛡️ FactShield AI
 
-## About the Project
+FactShield AI is an AI-powered media verification platform designed to help users analyze news content and identify potentially fake or misleading information.
 
-FactShield AI is a web-based project developed to detect fake news using Machine Learning. Users can enter a news headline or article, and the system predicts whether it is real or fake along with the confidence score.
-
-The project also includes the basic user interface for Fake Image Detection and Deepfake Detection, which can be extended in future versions.
+The project combines a modern web interface with Machine Learning, Natural Language Processing, Flask APIs, and MySQL-based authentication.
 
 ---
 
-## Features
+## 🚀 Features
 
-- Fake News Detection using Machine Learning
-- Prediction confidence score
-- Fast response through Flask API
-- Simple and responsive user interface
-- Separate pages for Fake News, Fake Image and Deepfake Detection
+### 📰 Fake News Detection
+- Analyze news headlines and articles.
+- NLP-based text preprocessing.
+- TF-IDF text vectorization.
+- Logistic Regression based classification.
+- Returns prediction results through a Flask REST API.
 
----
+### 🔐 User Authentication
+- User registration and login.
+- Password-based authentication.
+- Flask session management.
+- MySQL database integration.
+- Protected user pages.
+- Logout functionality.
 
-## Technologies Used
+### 🖼️ Media Verification
+- Dedicated image verification interface.
+- Deepfake detection interface prepared for future AI model integration.
 
-### Frontend
-- HTML
-- CSS
-- JavaScript
-
-### Backend
-- Python
-- Flask
-
-### Machine Learning
-- Scikit-learn
-- TF-IDF Vectorizer
-- Logistic Regression
-
----
-
-## Project Structure
-
-```
-FactShield-AI
-│
-├── backend
-├── css
-├── js
-├── assets
-├── dataset
-├── index.html
-├── news.html
-├── image.html
-├── deepfake.html
-└── README.md
-```
+### 🎨 Modern UI
+- Responsive HTML/CSS interface.
+- Interactive JavaScript functionality.
+- Responsive navigation.
+- User profile section.
+- Clean and modern dashboard-style design.
 
 ---
 
-## How to Run
+## 🧠 Machine Learning Pipeline
 
-### 1. Clone the repository
+The Fake News Detection module follows this pipeline:
 
-```bash
-git clone https://github.com/Debidatta-Nayak/FactShield-AI.git
-```
-
-### 2. Go to the backend folder
-
-```bash
-cd backend
-```
-
-### 3. Install the required packages
-
-```bash
-pip install -r requirement.txt
-```
-
-### 4. Run the Flask server
-
-```bash
-python app.py
-```
-
-The backend will start on:
-
-```
-http://127.0.0.1:5001
-```
-
-### 5. Open the frontend
-
-Open `index.html` using Live Server in VS Code.
-
----
-
-## Future Improvements
-
-- Fake Image Detection model
-- Deepfake Detection model
-- User authentication with database
-- Dashboard for prediction history
-- Better model accuracy
-
----
-
-## Author
-
-**Debidatta Nayak**
-
-B.Tech Student
-
----
-
-## License
-
-This project is developed for learning and educational purposes.
+```text
+News Article
+     ↓
+Text Preprocessing
+     ↓
+Stopword Removal
+     ↓
+Stemming
+     ↓
+TF-IDF Vectorization
+     ↓
+Logistic Regression
+     ↓
+Prediction
+     ↓
+Fake / Real Result
