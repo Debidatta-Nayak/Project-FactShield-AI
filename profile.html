@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profile | FactShield AI</title>
+
+    <link rel="stylesheet" href="css/profile.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- Navbar -->
+    <!-- ========================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+                FactShield AI
+
+            </a>
+
+            <ul class="nav-links">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="index.html#services">Detect</a></li>
+
+                <li><a href="index.html#about">About</a></li>
+
+                <li><a href="index.html#contact">Contact</a></li>
+
+            </ul>
+
+            <div class="nav-buttons">
+
+                <button class="logout-btn-nav" id="logoutBtn">
+
+                    Logout
+
+                </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- ========================= -->
+    <!-- Profile -->
+    <!-- ========================= -->
+
+    <section class="profile-section">
+
+        <div class="profile-card">
+
+            <div class="profile-avatar">
+
+                <i class="fa-solid fa-user"></i>
+
+            </div>
+
+            <h2 id="userName">
+
+                Loading...
+
+            </h2>
+
+            <p class="role">
+
+                AI Security Analyst
+
+            </p>
+
+            <p id="userEmail">
+
+                loading@gmail.com
+
+            </p>
+
+        </div>
+
+        <!-- Information -->
+
+        <div class="info-card">
+
+            <h2>
+
+                Personal Information
+
+            </h2>
+
+            <div class="info-row">
+
+                <span>
+
+                    <i class="fa-solid fa-user"></i>
+
+                    Full Name
+
+                </span>
+
+                <p id="displayName">
+
+                    ----------
+
+                </p>
+
+            </div>
+
+            <div class="info-row">
+
+                <span>
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    Email
+
+                </span>
+
+                <p id="displayEmail">
+
+                    ----------
+
+                </p>
+
+            </div>
+
+            <div class="info-row">
+
+                <span>
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    Account Status
+
+                </span>
+
+                <p>
+
+                    Active
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Statistics -->
+
+        <div class="stats">
+
+            <div class="stat-card">
+
+                <i class="fa-solid fa-newspaper"></i>
+
+                <h3 id="newsCount">
+
+                    0
+
+                </h3>
+
+                <p>
+
+                    Fake News Checked
+
+                </p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <i class="fa-solid fa-image"></i>
+
+                <h3 id="imageCount">
+
+                    0
+
+                </h3>
+
+                <p>
+
+                    Fake Images Checked
+
+                </p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <i class="fa-solid fa-video"></i>
+
+                <h3 id="videoCount">
+
+                    0
+
+                </h3>
+
+                <p>
+
+                    Deepfake Videos Checked
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Recent Activity -->
+
+        <div class="activity-card">
+
+            <h2>
+
+                Recent Activity
+
+            </h2>
+
+            <ul>
+
+                <li>
+
+                    Fake News Detection
+
+                </li>
+
+                <li>
+
+                    Image Verification
+
+                </li>
+
+                <li>
+
+                    Deepfake Video Scan
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- Buttons -->
+
+        <div class="action-buttons">
+
+            <button class="edit-btn" id="editProfile">
+
+                <i class="fa-solid fa-pen"></i>
+
+                Edit Profile
+
+            </button>
+
+            <button class="logout-btn" id="logoutBottom">
+
+                <i class="fa-solid fa-right-from-bracket"></i>
+
+                Logout
+
+            </button>
+
+        </div>
+
+    </section>
+
+</body>
+
+<script src="js/flask-auth.js"></script>
+<script src="js/profile.js"></script>
+
+</html>

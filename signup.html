@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Create Account | FactShield AI</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<section class="login-section">
+
+<div class="login-container">
+
+<!-- ================= LEFT PANEL ================= -->
+
+<div class="login-left">
+
+<div class="brand">
+
+<i class="fa-solid fa-shield-halved"></i>
+
+<h1>FactShield AI</h1>
+
+</div>
+
+<p class="brand-description">
+
+Create your account and unlock AI-powered Fake News,
+Fake Image and Deepfake Detection.
+
+</p>
+
+<div class="feature-list">
+
+<div class="feature-item">
+
+<i class="fa-solid fa-user-plus"></i>
+
+<span>Create Free Account</span>
+
+</div>
+
+<div class="feature-item">
+
+<i class="fa-solid fa-newspaper"></i>
+
+<span>Unlimited Fake News Detection</span>
+
+</div>
+
+<div class="feature-item">
+
+<i class="fa-solid fa-image"></i>
+
+<span>Image Verification</span>
+
+</div>
+
+<div class="feature-item">
+
+<i class="fa-solid fa-video"></i>
+
+<span>Deepfake Detection</span>
+
+</div>
+
+<div class="feature-item">
+
+<i class="fa-solid fa-lock"></i>
+
+<span>Secure User Authentication</span>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ================= RIGHT PANEL ================= -->
+
+<div class="login-right">
+
+<div class="login-card">
+
+<div class="login-header">
+
+<h2>Create Account 🚀</h2>
+
+<p>
+
+Join FactShield AI and start verifying information with AI.
+
+</p>
+
+</div>
+
+<form class="signup-form" id="signupForm" novalidate>
+
+<!-- Name -->
+
+<div class="input-group">
+
+<label>Full Name</label>
+
+<div class="input-box">
+
+<i class="fa-solid fa-user"></i>
+
+<input
+type="text"
+id="fullName"
+placeholder="Enter your full name"
+>
+
+</div>
+<small class="error-message"></small>
+
+</div>
+
+<!-- Email -->
+
+<div class="input-group">
+
+<label>Email Address</label>
+
+<div class="input-box">
+
+<i class="fa-solid fa-envelope"></i>
+
+<input
+type="email"
+id="email"
+placeholder="Enter your email"
+>
+
+</div>
+<small class="error-message"></small>
+</div>
+
+<!-- Password -->
+
+<div class="input-group">
+
+<label>Password</label>
+
+<div class="input-box password-box">
+
+<i class="fa-solid fa-lock"></i>
+
+<input
+type="password"
+id="signupPassword"
+placeholder="Create password"
+>
+
+<button
+type="button"
+class="toggle-password">
+
+<i class="fa-solid fa-eye"></i>
+
+</button>
+
+</div>
+<small class="error-message"></small>
+</div>
+
+<!-- Confirm Password -->
+
+<div class="input-group">
+
+<label>Confirm Password</label>
+
+<div class="input-box password-box">
+
+<i class="fa-solid fa-lock"></i>
+
+<input
+type="password"
+id="confirmPassword"
+placeholder="Confirm password">
+
+<button
+type="button"
+class="toggle-password">
+
+<i class="fa-solid fa-eye"></i>
+
+</button>
+
+</div>
+<small class="error-message"></small>
+</div>
+
+<!-- Terms -->
+
+<div class="form-options">
+
+<label class="remember-me">
+
+<input type="checkbox" 
+id="terms">
+
+<span>
+
+I agree to the Terms & Conditions
+
+</span>
+
+</label>
+</div>
+<small class="error-message" id="termsError"></small>
+
+<button
+type="submit"
+class="login-btn">
+
+<i class="fa-solid fa-user-plus"></i>
+
+Create Account
+
+</button>
+
+<p class="security-text">
+
+<i class="fa-solid fa-shield-halved"></i>
+
+Your account information is encrypted and secure.
+
+</p>
+
+</form>
+
+<div class="login-footer">
+
+<p>
+
+Already have an account?
+
+<a href="login.html">
+
+Login
+
+</a>
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ========================= -->
+<!-- Success Popup -->
+<!-- ========================= -->
+
+<div class="success-popup" id="successPopup">
+
+    <div class="success-box">
+
+        <div class="success-icon">
+            <i class="fa-solid fa-circle-check"></i>
+        </div>
+
+        <h2>Account Created!</h2>
+
+        <p>
+            Redirecting to Login...
+        </p>
+
+    </div>
+
+</div>
+
+<script src="js/flask-auth.js"></script>
+
+</body>
+
+</html>

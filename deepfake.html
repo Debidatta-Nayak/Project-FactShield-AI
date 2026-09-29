@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepfake Detection | FactShield AI</title>
+    <link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/news.css"><link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+<header class="header"><nav class="navbar"><a href="index.html" class="logo"><i class="fa-solid fa-shield-halved"></i><span>FactShield AI</span></a><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="news.html">Fake News</a></li><li><a href="image.html">Fake Image</a></li><li><a href="deepfake.html" class="active">Deepfake</a></li></ul></nav></header>
+<section class="news-hero"><div class="news-hero-content"><span class="page-tag">AI Powered Detection</span><h1>Deepfake Detection</h1><p>Upload a video to prepare it for a deepfake authenticity analysis.</p></div></section>
+<main class="news-main"><div class="news-container"><section class="input-card"><div class="card-header"><h2><i class="fa-solid fa-video"></i> Upload Video</h2><p>Supported formats: MP4, MOV, WEBM</p></div><div class="input-body"><label class="upload-area" id="uploadArea" for="mediaInput"><span><i class="fa-solid fa-cloud-arrow-up"></i><strong>Choose a video</strong><br><span id="mediaName">No file selected</span></span><input id="mediaInput" type="file" accept="video/mp4,video/quicktime,video/webm"></label></div><button class="analyze-btn" id="analyzeMedia" type="button"><i class="fa-solid fa-magnifying-glass"></i> Analyze File</button></section><aside class="result-card"><div class="card-header"><h2><i class="fa-solid fa-robot"></i> Analysis Result</h2></div><div class="prediction-box"><h3>Prediction</h3><span class="prediction-badge" id="mediaPrediction">Waiting...</span></div><div class="confidence-box"><h3>Confidence</h3><p id="mediaConfidence">--</p></div><div class="status-box"><h4>Current Status</h4><p id="mediaStatus">Waiting for a video...</p></div></aside></div></main>
+<section class="explanation-section"><div class="explanation-card"><h2><i class="fa-solid fa-circle-info"></i> About this demo</h2><ul><li>Your video is not uploaded in this front-end demo.</li><li>A backend model is required to analyze frames and generate a real result.</li></ul></div></section>
+<footer><div class="footer-bottom"><p>© 2026 FactShield AI. All Rights Reserved.</p></div></footer><script src="js/media.js"></script>
+</body></html>

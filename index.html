@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FactShield AI</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-shield-halved"></i>
+                FactShield AI
+            </a>
+
+            <ul class="nav-links">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="#services">Detect</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#faq">FAQ</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <div class="nav-buttons" id="navButtons">
+
+            <button class="login-btn"
+            onclick="location.href='login.html'">
+
+            Login
+
+            </button>
+
+            <button class="register-btn"
+            onclick="location.href='signup.html'">
+
+            Register
+
+            </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-left">
+
+            <span class="tag">
+                AI Powered Verification
+            </span>
+
+            <h1>
+
+                Stop Fake News,
+
+                <span>Fake Images</span>
+
+                & Deepfakes
+
+            </h1>
+
+            <p>
+
+                Verify online content using Artificial Intelligence.
+
+                Detect misinformation before it spreads.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <button class="primary-btn" onclick="checkLogin('#services')">
+
+                    Analyze Now
+
+                </button>
+
+                <button class="secondary-btn" onclick="location.href='#about'">
+
+                    Learn More
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="hero-right">
+
+            <div class="glass-card">
+
+                <i class="fa-solid fa-shield-virus"></i>
+
+                <h2>AI Detection</h2>
+
+                <p>
+
+                    Fake News
+
+                    <br>
+
+                    Fake Images
+
+                    <br>
+
+                    Deepfake Videos
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+<!-- ===========================
+        TRUSTED BY SECTION
+=========================== -->
+
+<section class="trusted-section">
+
+    <div class="trusted-container">
+
+        <div class="trusted-card">
+
+            <div class="trusted-icon">
+                <i class="fa-solid fa-brain"></i>
+            </div>
+
+            <div class="trusted-content">
+                <h3>AI Powered</h3>
+                <p>Advanced Machine Learning Detection</p>
+            </div>
+
+        </div>
+
+        <div class="trusted-card">
+
+            <div class="trusted-icon">
+                <i class="fa-solid fa-chart-line"></i>
+            </div>
+
+            <div class="trusted-content">
+                <h3>98%+ Accuracy</h3>
+                <p>Reliable Prediction Models</p>
+            </div>
+
+        </div>
+
+        <div class="trusted-card">
+
+            <div class="trusted-icon">
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+
+            <div class="trusted-content">
+                <h3>Fast Analysis</h3>
+                <p>Results Within Seconds</p>
+            </div>
+
+        </div>
+
+        <div class="trusted-card">
+
+            <div class="trusted-icon">
+                <i class="fa-solid fa-shield-halved"></i>
+            </div>
+
+            <div class="trusted-content">
+                <h3>Secure Detection</h3>
+                <p>Your Data Stays Private</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+            DETECTION SERVICES
+========================================== -->
+
+<section class="services" id="services">
+
+    <div class="section-title">
+
+        <span>OUR SERVICES</span>
+
+        <h2>AI Detection Services</h2>
+
+        <p>
+            Detect misinformation across multiple media using
+            advanced Artificial Intelligence.
+        </p>
+
+    </div>
+
+    <div class="service-container">
+
+        <!-- Card 1 -->
+
+        <div class="service-card">
+
+            <div class="service-icon">
+
+                <i class="fa-solid fa-newspaper"></i>
+
+            </div>
+
+            <h3>Fake News Detection</h3>
+
+            <p>
+
+                Analyze articles and headlines using
+                Machine Learning models to detect fake news.
+
+            </p>
+
+            <a href="#" onclick="checkLogin('news.html')">
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+        <!-- Card 2 -->
+
+        <div class="service-card">
+
+            <div class="service-icon">
+
+                <i class="fa-solid fa-image"></i>
+
+            </div>
+
+            <h3>Fake Image Detection</h3>
+
+            <p>
+
+                Identify AI-generated and manipulated
+                images using Computer Vision models.
+
+            </p>
+
+            <a href="#" onclick="checkLogin('image.html')">
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+        <!-- Card 3 -->
+
+        <div class="service-card">
+
+            <div class="service-icon">
+
+                <i class="fa-solid fa-video"></i>
+
+            </div>
+
+            <h3>Deepfake Detection</h3>
+
+            <p>
+
+                Detect face-swapped and AI-generated
+                videos with deep learning algorithms.
+
+            </p>
+
+            <a href="#" onclick="checkLogin('')">
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+            STATISTICS
+========================================== -->
+
+<section class="stats" id="about">
+
+    <div class="section-title">
+
+        <span>OUR IMPACT</span>
+
+        <h2>Trusted by Thousands</h2>
+
+        <p>
+            FactShield AI helps users identify misinformation
+            quickly and accurately using advanced AI models.
+        </p>
+
+    </div>
+
+    <div class="stats-container">
+
+        <article class="stat-card">
+
+            <i class="fa-solid fa-newspaper"></i>
+
+            <h2>50K+</h2>
+
+            <p>News Articles Verified</p>
+
+        </article>
+
+        <article class="stat-card">
+
+            <i class="fa-solid fa-image"></i>
+
+            <h2>15K+</h2>
+
+            <p>Images Analyzed</p>
+
+        </article>
+
+        <article class="stat-card">
+
+            <i class="fa-solid fa-video"></i>
+
+            <h2>8K+</h2>
+
+            <p>Deepfake Videos Checked</p>
+
+        </article>
+
+        <article class="stat-card">
+
+            <i class="fa-solid fa-shield-halved"></i>
+
+            <h2>98.7%</h2>
+
+            <p>Detection Accuracy</p>
+
+        </article>
+
+    </div>
+
+</section>
+<!-- ==========================================
+                FAQ SECTION
+========================================== -->
+
+<section class="faq" id="faq">
+
+    <div class="section-title">
+
+        <span>FAQ</span>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <p>
+            Find answers to the most common questions about
+            FactShield AI and how our detection system works.
+        </p>
+
+    </div>
+
+    <div class="faq-container">
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+
+                <span>How does Fake News Detection work?</span>
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+
+                    FactShield AI analyzes the news article using
+                    Natural Language Processing (NLP) and Machine
+                    Learning models to determine whether the content
+                    is likely to be real or fake.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+
+                <span>How accurate is FactShield AI?</span>
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+
+                    Our Fake News Detection model achieves
+                    approximately 98% accuracy on the evaluation
+                    dataset.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+
+                <span>Which file types are supported?</span>
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+
+                    Users can analyze text, images and videos.
+                    Supported formats include TXT, JPG, PNG,
+                    JPEG and MP4.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <button class="faq-question">
+
+                <span>Is my uploaded data stored?</span>
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+
+                    No. Uploaded files are processed securely
+                    and are not permanently stored.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================================
+                CALL TO ACTION
+========================================== -->
+
+<section class="cta">
+
+    <div class="cta-content">
+
+        <span>GET STARTED</span>
+
+        <h2>
+
+            Ready to Detect Fake Content?
+
+        </h2>
+
+        <p>
+
+            Verify news articles, images and deepfake videos
+            using AI-powered detection in just a few seconds.
+
+        </p>
+
+        <div class="cta-buttons">
+
+            <a href="#services" class="primary-btn">
+
+                Start Detection
+
+            </a>
+
+            <a href="#about" class="secondary-btn">
+
+                Learn More
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+                    FOOTER
+========================================== -->
+
+<footer id="contact">
+
+    <div class="footer-container">
+
+        <div class="footer-about">
+
+            <h2>FactShield AI</h2>
+
+            <p>
+
+                AI-powered platform for detecting fake news,
+                manipulated images and deepfake videos.
+
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="#services">Services</a></li>
+
+                <li><a href="#faq">FAQ</a></li>
+
+                <li><a href="mailto:hello@factshield.ai">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Detection</h3>
+
+            <ul>
+
+                <li><a href="#" onclick="checkLogin('news.html')">Fake News</a></li>
+
+                <li><a href="#" onclick="checkLogin('image.html')">Fake Image</a></li>
+
+                <li><a href="#" onclick="checkLogin('deepfake.html')">Deepfake</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Connect</h3>
+
+            <ul>
+
+                <li><a href="https://github.com" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> GitHub</a></li>
+
+                <li><a href="https://www.linkedin.com" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+
+                <li><a href="mailto:hello@factshield.ai"><i class="fa-solid fa-envelope"></i> Email</a></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+
+            © 2026 FactShield AI. All Rights Reserved.
+
+        </p>
+
+    </div>
+
+</footer>
+
+ <script src="js/main.js"></script>
+ <script src="js/flask-auth.js"></script>
+
+
+
+</body>
+
+</html>

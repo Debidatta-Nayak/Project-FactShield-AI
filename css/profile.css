@@ -1,0 +1,637 @@
+/* ===========================
+   Google Font
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ===========================
+   Global
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f5f7fb;
+    color:#1f2937;
+}
+
+/* ===========================
+   Navbar
+=========================== */
+
+header{
+    width:100%;
+    background:#0f172a;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.navbar{
+
+    width:90%;
+    max-width:1400px;
+
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:18px 0;
+
+}
+
+.logo{
+
+    text-decoration:none;
+
+    font-size:28px;
+    font-weight:700;
+
+    color:white;
+
+}
+
+.logo i{
+
+    color:#2563eb;
+
+    margin-right:8px;
+
+}
+
+.nav-links{
+
+    display:flex;
+    list-style:none;
+    gap:35px;
+
+}
+
+.nav-links a{
+
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:#3b82f6;
+
+}
+
+.logout-btn-nav{
+
+    padding:10px 25px;
+
+    border:none;
+    border-radius:8px;
+
+    background:#dc2626;
+    color:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.logout-btn-nav:hover{
+
+    background:#b91c1c;
+
+}
+
+/* ===========================
+   Profile Section
+=========================== */
+
+.profile-section{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:50px auto;
+
+}
+
+/* ===========================
+   Profile Card
+=========================== */
+
+.profile-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    text-align:center;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.profile-avatar{
+
+    width:140px;
+    height:140px;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#2563eb,#1e40af);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin:auto;
+
+    color:white;
+
+    font-size:65px;
+
+}
+
+.profile-card h2{
+
+    margin-top:20px;
+
+    font-size:32px;
+
+}
+
+.role{
+
+    color:#2563eb;
+
+    margin-top:10px;
+
+    font-weight:600;
+
+}
+
+#userEmail{
+
+    margin-top:10px;
+
+    color:#6b7280;
+
+}
+/* ===========================
+   Personal Information Card
+=========================== */
+
+.info-card{
+
+    margin-top:35px;
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.info-card h2{
+
+    font-size:28px;
+
+    margin-bottom:25px;
+
+    color:#0f172a;
+
+}
+
+.info-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 0;
+
+    border-bottom:1px solid #e5e7eb;
+
+}
+
+.info-row:last-child{
+
+    border-bottom:none;
+
+}
+
+.info-row span{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-weight:600;
+
+    color:#374151;
+
+}
+
+.info-row span i{
+
+    color:#2563eb;
+
+    font-size:18px;
+
+}
+
+.info-row p{
+
+    color:#6b7280;
+
+    font-size:16px;
+
+    font-weight:500;
+
+}
+
+/* ===========================
+   Statistics
+=========================== */
+
+.stats{
+
+    margin-top:40px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+.stat-card{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    padding:35px 25px;
+
+    text-align:center;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    transition:0.3s ease;
+
+    cursor:pointer;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 45px rgba(37,99,235,.18);
+
+}
+
+.stat-card i{
+
+    font-size:42px;
+
+    color:#2563eb;
+
+    margin-bottom:18px;
+
+}
+
+.stat-card h3{
+
+    font-size:38px;
+
+    color:#0f172a;
+
+    margin-bottom:10px;
+
+}
+
+.stat-card p{
+
+    color:#6b7280;
+
+    font-size:16px;
+
+    font-weight:500;
+
+}
+
+/* Individual Icon Colors */
+
+.stat-card:nth-child(1) i{
+
+    color:#2563eb;
+
+}
+
+.stat-card:nth-child(2) i{
+
+    color:#16a34a;
+
+}
+
+.stat-card:nth-child(3) i{
+
+    color:#dc2626;
+
+}
+
+/* Card Hover Border */
+
+.stat-card:hover{
+
+    border:2px solid #2563eb;
+
+}
+/* ===========================
+   Recent Activity Card
+=========================== */
+
+.activity-card{
+
+    margin-top:40px;
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.activity-card h2{
+
+    color:#0f172a;
+
+    font-size:28px;
+
+    margin-bottom:25px;
+
+}
+
+.activity-card ul{
+
+    list-style:none;
+
+}
+
+.activity-card ul li{
+
+    padding:18px 0;
+
+    border-bottom:1px solid #e5e7eb;
+
+    color:#4b5563;
+
+    font-size:17px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+.activity-card ul li:last-child{
+
+    border-bottom:none;
+
+}
+
+.activity-card ul li::before{
+
+    content:"✔";
+
+    color:#16a34a;
+
+    font-weight:bold;
+
+    font-size:18px;
+
+}
+
+/* ===========================
+   Action Buttons
+=========================== */
+
+.action-buttons{
+
+    margin-top:40px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+.edit-btn{
+
+    background:linear-gradient(135deg,#2563eb,#1e40af);
+
+    color:#ffffff;
+
+    border:none;
+
+    padding:15px 35px;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s ease;
+
+}
+
+.edit-btn:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 25px rgba(37,99,235,.30);
+
+}
+
+.logout-btn{
+
+    background:#dc2626;
+
+    color:#ffffff;
+
+    border:none;
+
+    padding:15px 35px;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s ease;
+
+}
+
+.logout-btn:hover{
+
+    background:#b91c1c;
+
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 25px rgba(220,38,38,.25);
+
+}
+
+.edit-btn i,
+.logout-btn i{
+
+    margin-right:8px;
+
+}
+
+/* ===========================
+   Card Hover Effect
+=========================== */
+
+.profile-card,
+.info-card,
+.activity-card{
+
+    transition:.35s ease;
+
+}
+
+.profile-card:hover,
+.info-card:hover,
+.activity-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 18px 45px rgba(0,0,0,.12);
+
+}
+
+/* ===========================
+   Avatar Animation
+=========================== */
+
+.profile-avatar{
+
+    transition:.35s ease;
+
+}
+
+.profile-avatar:hover{
+
+    transform:scale(1.08) rotate(5deg);
+
+}
+
+/* ===========================
+   Scrollbar
+=========================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#f3f4f6;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#2563eb;
+
+    border-radius:10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#1e40af;
+
+}
+
+/* ===========================
+   Selection
+=========================== */
+
+::selection{
+
+    background:#2563eb;
+
+    color:#ffffff;
+
+}
+
+/* ===========================
+   Smooth Transition
+=========================== */
+
+button,
+a,
+.stat-card,
+.profile-card,
+.info-card,
+.activity-card{
+
+    transition:all .3s ease;
+
+}
+
+/* ===========================
+   Bottom Spacing
+=========================== */
+
+.profile-section{
+
+    padding-bottom:60px;
+
+}

@@ -1,0 +1,1459 @@
+/* ==========================
+   LARGE TABLETS (1200px)
+========================== */
+
+@media (max-width:1200px){
+
+    .hero h1{
+        font-size:58px;
+    }
+
+    .glass-card{
+        width:320px;
+    }
+
+}
+
+/* ==========================
+   TABLETS (992px)
+========================== */
+
+@media (max-width:992px){
+
+    .navbar{
+
+        width:92%;
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+        gap:20px;
+
+        height:auto;
+
+        padding:20px 0;
+
+    }
+
+    .nav-links{
+
+        width:100%;
+
+        justify-content:center;
+
+        gap:25px;
+
+        flex-wrap:wrap;
+
+    }
+
+    .hero{
+
+        flex-direction:column;
+
+        text-align:center;
+
+        gap:60px;
+
+        padding:60px 0;
+    }
+
+    .hero-left,
+    .hero-right{
+
+        width:100%;
+    }
+
+    .hero h1{
+
+        font-size:52px;
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+    }
+
+    .hero p{
+
+        max-width:650px;
+
+        margin:25px auto;
+    }
+
+}
+
+/* ==========================
+   MOBILE (768px)
+========================== */
+
+@media (max-width:768px){
+
+    .logo{
+
+        font-size:24px;
+    }
+
+    .nav-links{
+
+        gap:18px;
+    }
+
+    .nav-links a{
+
+        font-size:15px;
+    }
+
+    .nav-buttons{
+
+        width:100%;
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+    }
+
+    .login-btn,
+    .register-btn{
+
+        width:170px;
+    }
+
+    .hero{
+
+        min-height:auto;
+
+        padding:70px 0;
+    }
+
+    .hero h1{
+
+        font-size:42px;
+    }
+
+    .hero p{
+
+        font-size:16px;
+    }
+
+    .glass-card{
+
+        width:100%;
+
+        max-width:340px;
+    }
+
+}
+
+/* ==========================
+   SMALL MOBILE (576px)
+========================== */
+
+@media (max-width:576px){
+
+    .navbar{
+
+        width:95%;
+    }
+
+    .hero{
+
+        width:95%;
+    }
+
+    .hero h1{
+
+        font-size:34px;
+
+        line-height:1.3;
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+    }
+
+    .primary-btn,
+    .secondary-btn{
+
+        width:100%;
+        max-width:260px;
+    }
+
+    .glass-card{
+
+        padding:30px;
+    }
+
+    .glass-card i{
+
+        font-size:60px;
+    }
+
+    .glass-card h2{
+
+        font-size:24px;
+    }
+
+}
+
+/* ==========================
+   EXTRA SMALL (400px)
+========================== */
+
+@media (max-width:400px){
+
+    .hero h1{
+
+        font-size:28px;
+    }
+
+    .tag{
+
+        font-size:13px;
+
+        padding:8px 15px;
+    }
+
+    .hero p{
+
+        font-size:15px;
+    }
+
+    .nav-links{
+
+        gap:12px;
+    }
+
+    .nav-links a{
+
+        font-size:14px;
+    }
+
+}
+
+/* ==========================================
+        TRUSTED SECTION RESPONSIVE
+========================================== */
+
+@media(max-width:1100px){
+
+    .trusted-container{
+
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+@media(max-width:768px){
+
+    .trusted-section{
+
+        width:95%;
+    }
+
+    .trusted-container{
+
+        grid-template-columns:1fr;
+        gap:18px;
+    }
+
+    .trusted-card{
+
+        padding:20px;
+    }
+
+    .trusted-icon{
+
+        width:58px;
+        height:58px;
+    }
+
+    .trusted-icon i{
+
+        font-size:24px;
+    }
+
+}
+
+@media(max-width:480px){
+
+    .trusted-card{
+
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .trusted-content h3{
+
+        font-size:18px;
+    }
+
+    .trusted-content p{
+
+        font-size:13px;
+    }
+
+}
+
+/* ==========================================
+        DETECTION SERVICES RESPONSIVE
+========================================== */
+
+/* ---------- Laptop ---------- */
+
+@media (max-width: 1200px){
+
+    .services{
+        width:92%;
+    }
+
+    .service-container{
+        gap:25px;
+    }
+
+}
+
+/* ---------- Tablet ---------- */
+
+@media (max-width: 992px){
+
+    .service-container{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .section-title h2{
+
+        font-size:36px;
+
+    }
+
+}
+
+/* ---------- Large Mobile ---------- */
+
+@media (max-width: 768px){
+
+    .services{
+
+        width:95%;
+
+        margin:80px auto;
+
+    }
+
+    .section-title{
+
+        margin-bottom:45px;
+
+    }
+
+    .section-title h2{
+
+        font-size:32px;
+
+    }
+
+    .section-title p{
+
+        font-size:15px;
+
+        padding:0 10px;
+
+    }
+
+    .service-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .service-card{
+
+        padding:30px;
+
+    }
+
+}
+
+/* ---------- Small Mobile ---------- */
+
+@media (max-width: 576px){
+
+    .service-card{
+
+        text-align:center;
+
+    }
+
+    .service-icon{
+
+        margin:0 auto 25px;
+
+    }
+
+    .service-card h3{
+
+        font-size:22px;
+
+    }
+
+    .service-card p{
+
+        font-size:15px;
+
+    }
+
+    .service-card a{
+
+        justify-content:center;
+
+    }
+
+}
+
+/* ---------- Extra Small Devices ---------- */
+
+@media (max-width: 400px){
+
+    .section-title span{
+
+        font-size:13px;
+
+    }
+
+    .section-title h2{
+
+        font-size:28px;
+
+    }
+
+    .section-title p{
+
+        font-size:14px;
+
+    }
+
+    .service-card{
+
+        padding:25px;
+
+    }
+
+    .service-icon{
+
+        width:65px;
+
+        height:65px;
+
+    }
+
+    .service-icon i{
+
+        font-size:28px;
+
+    }
+
+    .service-card h3{
+
+        font-size:20px;
+
+    }
+
+}
+
+/* ==========================================
+        STATISTICS RESPONSIVE
+========================================== */
+
+@media(max-width:992px){
+
+    .stats-container{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .stats{
+
+        width:95%;
+
+    }
+
+    .stats-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .stat-card h2{
+
+        font-size:34px;
+
+    }
+
+}
+/*==========================================
+            FAQ RESPONSIVE
+==========================================*/
+
+@media(max-width:768px){
+
+    .faq{
+
+        width:95%;
+
+    }
+
+    .faq-question{
+
+        font-size:16px;
+
+        padding:20px;
+
+    }
+
+    .faq-answer p{
+
+        padding:0 20px 20px;
+
+    }
+
+}
+/*==========================================
+            CTA RESPONSIVE
+==========================================*/
+
+@media(max-width:768px){
+
+    .cta{
+
+        width:95%;
+
+        padding:60px 25px;
+
+    }
+
+    .cta h2{
+
+        font-size:34px;
+
+    }
+
+}
+/*==========================================
+            FOOTER RESPONSIVE
+==========================================*/
+
+@media(max-width:992px){
+
+    .footer-container{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .footer-container{
+
+        width:95%;
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+    }
+
+}
+
+/* ==========================================
+            NEWS PAGE RESPONSIVE
+========================================== */
+
+/* ===============================
+        Large Tablets
+================================ */
+
+@media(max-width:1200px){
+
+    .news-container{
+
+        grid-template-columns:1fr;
+
+        gap:30px;
+
+    }
+
+    .result-card{
+
+        position:static;
+
+    }
+
+}
+
+
+/* ===============================
+        Tablets
+================================ */
+
+@media(max-width:992px){
+
+    .news-hero{
+
+        margin:60px auto 50px;
+
+    }
+
+    .news-hero h1{
+
+        font-size:42px;
+
+    }
+
+    .news-hero p{
+
+        font-size:16px;
+
+    }
+
+    .input-card,
+    .result-card,
+    .explanation-card{
+
+        padding:28px;
+
+    }
+
+}
+
+
+/* ===============================
+        Mobile
+================================ */
+
+@media(max-width:768px){
+
+    .navbar{
+
+        width:92%;
+
+        height:70px;
+
+    }
+
+    .nav-links{
+
+        display:none;
+
+    }
+
+    .news-main{
+
+        width:92%;
+
+    }
+
+    .news-hero{
+
+        width:92%;
+
+        margin:50px auto 40px;
+
+    }
+
+    .page-tag{
+
+        font-size:13px;
+
+        padding:8px 18px;
+
+    }
+
+    .news-hero h1{
+
+        font-size:34px;
+
+    }
+
+    .news-hero p{
+
+        font-size:15px;
+
+        line-height:1.7;
+
+    }
+
+    .card-header h2{
+
+        font-size:24px;
+
+    }
+
+    textarea{
+
+        min-height:260px;
+
+        padding:18px;
+
+        font-size:15px;
+
+    }
+
+    .confidence-box p{
+
+        font-size:30px;
+
+    }
+
+    .progress-item{
+
+        grid-template-columns:50px 1fr 40px;
+
+        gap:10px;
+
+    }
+
+    .prediction-badge{
+
+        width:100%;
+
+    }
+
+}
+
+
+/* ===============================
+        Small Mobile
+================================ */
+
+@media(max-width:576px){
+
+    .news-hero h1{
+
+        font-size:30px;
+
+        line-height:1.3;
+
+    }
+
+    .news-hero p{
+
+        font-size:14px;
+
+    }
+
+    .input-card,
+    .result-card,
+    .explanation-card{
+
+        padding:22px;
+
+        border-radius:16px;
+
+    }
+
+    .card-header h2{
+
+        font-size:22px;
+
+    }
+
+    .card-header p{
+
+        font-size:14px;
+
+    }
+
+    textarea{
+
+        min-height:220px;
+
+    }
+
+    .analyze-btn{
+
+        font-size:16px;
+
+        padding:16px;
+
+    }
+
+    .prediction-badge{
+
+        font-size:15px;
+
+        padding:12px 18px;
+
+    }
+
+    .confidence-box p{
+
+        font-size:28px;
+
+    }
+
+    .progress-item{
+
+        grid-template-columns:45px 1fr;
+
+    }
+
+    .progress-item span:last-child{
+
+        grid-column:2;
+
+        justify-self:end;
+
+    }
+
+    .explanation-card h2{
+
+        font-size:24px;
+
+    }
+
+    .explanation-card li{
+
+        font-size:14px;
+
+    }
+
+}
+
+
+/* ===============================
+        Extra Small Mobile
+================================ */
+
+@media(max-width:400px){
+
+    .news-hero h1{
+
+        font-size:26px;
+
+    }
+
+    .logo{
+
+        font-size:20px;
+
+    }
+
+    .logo i{
+
+        font-size:24px;
+
+    }
+
+    textarea{
+
+        min-height:200px;
+
+    }
+
+    .card-header h2{
+
+        font-size:20px;
+
+    }
+
+}
+
+/* ==========================================
+        AUTHENTICATION RESPONSIVE
+========================================== */
+
+
+/* ==========================================
+            Large Tablets
+========================================== */
+
+@media (max-width:1200px){
+
+    .login-container{
+
+        width:95%;
+
+    }
+
+}
+
+
+/* ==========================================
+            Tablets
+========================================== */
+
+@media (max-width:992px){
+
+    .login-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .login-left{
+
+        padding:50px;
+
+        text-align:center;
+
+        align-items:center;
+
+    }
+
+    .brand{
+
+        justify-content:center;
+
+    }
+
+    .feature-list{
+
+        width:100%;
+
+        max-width:500px;
+
+    }
+
+    .login-right{
+
+        padding:45px;
+
+    }
+
+}
+
+
+/* ==========================================
+            Mobile
+========================================== */
+
+@media (max-width:768px){
+
+    .login-section{
+
+        padding:20px;
+
+    }
+
+    .login-container{
+
+        border-radius:20px;
+
+    }
+
+    .login-left{
+
+        display:none;
+
+    }
+
+    .login-right{
+
+        padding:35px 25px;
+
+    }
+
+    .login-card{
+
+        max-width:100%;
+
+    }
+
+    .login-header{
+
+        text-align:center;
+
+    }
+
+    .login-header h2{
+
+        font-size:30px;
+
+    }
+
+    .login-header p{
+
+        font-size:15px;
+
+    }
+
+    .form-options{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:15px;
+
+    }
+
+    .login-btn{
+
+        height:54px;
+
+        font-size:16px;
+
+    }
+
+}
+
+
+/* ==========================================
+            Small Mobile
+========================================== */
+
+@media (max-width:576px){
+
+    .login-right{
+
+        padding:25px 20px;
+
+    }
+
+    .login-header h2{
+
+        font-size:26px;
+
+    }
+
+    .login-header p{
+
+        font-size:14px;
+
+    }
+
+    .input-group{
+
+        margin-bottom:20px;
+
+    }
+
+    .input-group label{
+
+        font-size:14px;
+
+    }
+
+    .input-box{
+
+        height:52px;
+
+        padding:0 15px;
+
+    }
+
+    .input-box i{
+
+        font-size:16px;
+
+    }
+
+    .input-box input{
+
+        font-size:14px;
+
+    }
+
+    .toggle-password{
+
+        font-size:16px;
+
+    }
+
+    .remember-me{
+
+        font-size:13px;
+
+    }
+
+    .form-options a{
+
+        font-size:13px;
+
+    }
+
+    .login-btn{
+
+        height:50px;
+
+        font-size:15px;
+
+    }
+
+    .security-text{
+
+        font-size:13px;
+
+    }
+
+    .login-footer p{
+
+        font-size:14px;
+
+    }
+
+}
+
+
+/* ==========================================
+            Extra Small Mobile
+========================================== */
+
+@media (max-width:400px){
+
+    .login-section{
+
+        padding:15px;
+
+    }
+
+    .login-right{
+
+        padding:20px 15px;
+
+    }
+
+    .login-header h2{
+
+        font-size:24px;
+
+    }
+
+    .input-box{
+
+        height:48px;
+
+    }
+
+    .login-btn{
+
+        height:48px;
+
+        font-size:14px;
+
+    }
+
+}
+
+/* ===========================================
+            Large Laptop (1200px)
+=========================================== */
+
+@media (max-width:1200px){
+
+    .navbar,
+    .profile-section{
+
+        width:95%;
+
+    }
+
+}
+
+
+/* ===========================================
+            Laptop (992px)
+=========================================== */
+
+@media (max-width:992px){
+
+    .stats{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .profile-card{
+
+        padding:35px;
+
+    }
+
+}
+
+
+/* ===========================================
+            Tablet (768px)
+=========================================== */
+
+@media (max-width:768px){
+
+    /* Navbar */
+
+    .navbar{
+
+        flex-direction:column;
+
+        gap:20px;
+
+        padding:20px 0;
+
+    }
+
+    .nav-links{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+        gap:20px;
+
+    }
+
+    .nav-buttons{
+
+        width:100%;
+
+        display:flex;
+
+        justify-content:center;
+
+    }
+
+    .logout-btn-nav{
+
+        width:220px;
+
+    }
+
+    /* Profile */
+
+    .profile-section{
+
+        width:95%;
+
+        margin:30px auto;
+
+    }
+
+    .profile-card{
+
+        padding:30px 20px;
+
+    }
+
+    .profile-avatar{
+
+        width:120px;
+
+        height:120px;
+
+        font-size:55px;
+
+    }
+
+    .profile-card h2{
+
+        font-size:28px;
+
+    }
+
+    /* Personal Information */
+
+    .info-card{
+
+        padding:25px;
+
+    }
+
+    .info-row{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:10px;
+
+    }
+
+    /* Statistics */
+
+    .stats{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* Buttons */
+
+    .action-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .edit-btn,
+    .logout-btn{
+
+        width:100%;
+
+    }
+
+}
+
+
+/* ===========================================
+            Mobile (576px)
+=========================================== */
+
+@media (max-width:576px){
+
+    .logo{
+
+        font-size:24px;
+
+    }
+
+    .nav-links{
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:15px;
+
+    }
+
+    .profile-avatar{
+
+        width:100px;
+
+        height:100px;
+
+        font-size:45px;
+
+    }
+
+    .profile-card h2{
+
+        font-size:24px;
+
+    }
+
+    .role{
+
+        font-size:15px;
+
+    }
+
+    #userEmail{
+
+        font-size:14px;
+
+    }
+
+    .info-card h2,
+    .activity-card h2{
+
+        font-size:22px;
+
+    }
+
+    .stat-card{
+
+        padding:25px;
+
+    }
+
+    .stat-card h3{
+
+        font-size:30px;
+
+    }
+
+    .stat-card i{
+
+        font-size:35px;
+
+    }
+
+}
+
+
+/* ===========================================
+            Small Mobile (400px)
+=========================================== */
+
+@media (max-width:400px){
+
+    .navbar{
+
+        padding:15px 0;
+
+    }
+
+    .logo{
+
+        font-size:20px;
+
+        text-align:center;
+
+    }
+
+    .profile-card{
+
+        padding:20px;
+
+    }
+
+    .profile-avatar{
+
+        width:85px;
+
+        height:85px;
+
+        font-size:35px;
+
+    }
+
+    .profile-card h2{
+
+        font-size:22px;
+
+    }
+
+    .profile-card p{
+
+        font-size:14px;
+
+    }
+
+    .info-card{
+
+        padding:20px;
+
+    }
+
+    .activity-card{
+
+        padding:20px;
+
+    }
+
+    .edit-btn,
+    .logout-btn,
+    .logout-btn-nav{
+
+        padding:12px;
+
+        font-size:15px;
+
+    }
+
+}
